@@ -1,4 +1,4 @@
-from sqlalchemy.orm.strategy_options import loader_option, _UnboundLoad
+from sqlalchemy.orm.strategy_options import _UnboundLoad
 from sqlalchemy.orm.strategies import SelectInLoader
 from sqlalchemy.orm import properties
 from sqlalchemy import log, util
